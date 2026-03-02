@@ -60,7 +60,7 @@ dependencies {
     implementation("com.squareup.picasso:picasso:2.71828")
     implementation("com.blankj:utilcode:1.19.0")
     implementation("com.github.bumptech.glide:glide:4.8.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.8.0")
+    kapt("com.github.bumptech.glide:compiler:4.8.0")
     
     // RxJava
     implementation("io.reactivex.rxjava2:rxjava:$rxjavaVersion")
