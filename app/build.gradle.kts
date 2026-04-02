@@ -53,7 +53,6 @@ dependencies {
     implementation("com.blankj:utilcode:1.19.0")
     implementation("com.github.bumptech.glide:glide:4.8.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.8.0")
-    implementation(libs["rxAndroid"]!!)
     implementation(libs["retrofit"]!!)
     implementation(libs["retrofitRxAdapter"]!!)
     implementation(libs["okhttp"]!!)
